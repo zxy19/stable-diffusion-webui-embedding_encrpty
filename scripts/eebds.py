@@ -5,11 +5,12 @@ try:
     from Crypto.Cipher import AES
 except ImportError:
     print("Downloading pycryptodome")
-    os.system(f'pip install pycryptodome')
+    os.system(f'python -m pip install pycryptodome')
     try:
         from Crypto.Cipher import AES
     except ImportError:
         print("Download unsuccessful")
+        exit()
 
 
 def pad(text):
