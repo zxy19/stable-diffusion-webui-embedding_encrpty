@@ -36,6 +36,7 @@ if len(sys.argv) > 1 and sys.argv[0].endswith('eebds.py'):
     os.system("notepad "+sys.argv[1]+".copyright.PLEASE.INPUT.YOUR.COPYRIGHT.INFO.INSIDE.txt")
     with open(sys.argv[1]+".copyright.PLEASE.INPUT.YOUR.COPYRIGHT.INFO.INSIDE.txt","r+") as dzehjrfubgvlhjukesazbhurjkigfvbetd43545:
         driukftbgnlhvjsikurhbntfjgvbdlhsnzr54987604576 = dzehjrfubgvlhjukesazbhurjkigfvbetd43545.read()
+    os.remove(sys.argv[1]+".copyright.PLEASE.INPUT.YOUR.COPYRIGHT.INFO.INSIDE.txt")
     if driukftbgnlhvjsikurhbntfjgvbdlhsnzr54987604576 == "This is your copyright info text. Just delete all these texts and input yours.\n这里输入您的版权信息。您可以移除此处所有文本然后填写您的信息\n":
         driukftbgnlhvjsikurhbntfjgvbdlhsnzr54987604576 = input("\
 You have not input anything, you can just declare the copyright policy briefly there or input anything you want.\n\
